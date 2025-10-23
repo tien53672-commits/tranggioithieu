@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới thiệu bản thân - Đoàn Văn Tiền</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .profile {
+        text-align: center;
+        padding: 30px;
+        background: #f0f4ff;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        animation: fadeInDown 1s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .profile img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #1e3c72;
+        margin-bottom: 15px;
+        transition: transform 0.3s;
+      }
+
+      .profile img:hover {
+        transform: scale(1.1);
+      }
+
+      h1 {
+        margin: 10px 0;
+        font-size: 28px;
+        color: #1e3c72;
+      }
+
+      h2 {
+        border-left: 5px solid #2a5298;
+        padding-left: 10px;
+        margin-top: 30px;
+        font-size: 22px;
+        color: #2a5298;
+        animation: fadeInLeft 1s ease;
+      }
+
+      p {
+        margin: 8px 0;
+        font-size: 16px;
+      }
+
+      .card {
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 15px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        animation: fadeInUp 1s ease;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      .info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      .info p strong {
+        color: #1e3c72;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        font-size: 14px;
+        background: #1e3c72;
+        color: #fff;
+        border-radius: 10px;
+        animation: fadeInUp 2s ease;
+      }
+
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeInLeft {
+        from {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img
+          src="z7047897092668_fddc538e9f9a9224ee0c11a3d5c5b20a.jpg"
+          alt="Ảnh đại diện"
+        />
+        <h1>Đoàn Văn Tiền</h1>
+        <p>🎓 Sinh viên Trường Đại học Đại Nam</p>
+      </div>
+
+      <div class="card">
+        <h2>Thông tin cá nhân</h2>
+        <div class="info">
+          <p><strong>Ngày sinh:</strong> 01/01/2003</p>
+          <p><strong>Số điện thoại:</strong> 0123456789</p>
+          <p><strong>Địa chỉ:</strong> Tổ 1, xã Lục Yên, tỉnh Lào Cai</p>
+          <p><strong>Email:</strong> tien@example.com</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Sở thích</h2>
+        <p>🎬 Xem phim</p>
+        <p>🎮 Chơi game</p>
+        <p>📚 Tìm hiểu công nghệ, khám phá kiến thức mới</p>
+      </div>
+
+      <div class="card">
+        <h2>Năng lực & Kết quả học tập</h2>
+        <p>✔ Thành thạo tin học văn phòng</p>
+        <p>✔ Khả năng làm việc nhóm và giao tiếp tốt</p>
+        <p>✔ Có kết quả học tập loại Khá - Giỏi trong nhiều học kỳ</p>
+      </div>
+
+      <div class="card">
+        <h2>Mục tiêu nghề nghiệp</h2>
+        <p>💼 Trở thành một chuyên gia trong lĩnh vực công nghệ thông tin</p>
+        <p>
+          🌐 Phát triển bản thân để đóng góp cho sự phát triển của doanh nghiệp
+          và xã hội
+        </p>
+        <p>🚀 Nghiên cứu và ứng dụng trí tuệ nhân tạo trong thực tiễn</p>
+      </div>
+
+      <footer>© 2025 - Trang giới thiệu bản thân của Đoàn Văn Tiền</footer>
+    </div>
+  </body>
+</html>
